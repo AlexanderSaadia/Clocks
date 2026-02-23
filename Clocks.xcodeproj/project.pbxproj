@@ -66,8 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				7322DD672F4CE13100EE5345 /* LandingView.swift */,
-				7322DD732F4CE35400EE5345 /* AlarmClockView.swift */,
 				7322DD762F4CE37200EE5345 /* WorldClockView.swift */,
+				7322DD732F4CE35400EE5345 /* AlarmClockView.swift */,
 				7322DD782F4CE38400EE5345 /* StopWatchView.swift */,
 			);
 			path = Views;
