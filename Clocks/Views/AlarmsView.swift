@@ -14,6 +14,7 @@ struct AlarmsView: View {
         NavigationStack {
             VStack {
                 AlarmStructureView(trueOrFalse: $isOn, time: "7:30", amOrPm: "AM")
+                
                 AlarmStructureView(trueOrFalse: $isOn, time: "7:32", amOrPm: "AM")
                 AlarmStructureView(trueOrFalse: $isOff, time: "6:36", amOrPm: "AM")
             }
