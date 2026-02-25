@@ -13,6 +13,7 @@
 		7322DD742F4CE35400EE5345 /* AlarmClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7322DD732F4CE35400EE5345 /* AlarmClockView.swift */; };
 		7322DD772F4CE37200EE5345 /* WorldClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7322DD762F4CE37200EE5345 /* WorldClockView.swift */; };
 		7322DD792F4CE38400EE5345 /* StopWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7322DD782F4CE38400EE5345 /* StopWatchView.swift */; };
+		7322DD8F2F4E890A00EE5345 /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7322DD8E2F4E890A00EE5345 /* CityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		7322DD732F4CE35400EE5345 /* AlarmClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmClockView.swift; sourceTree = "<group>"; };
 		7322DD762F4CE37200EE5345 /* WorldClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockView.swift; sourceTree = "<group>"; };
 		7322DD782F4CE38400EE5345 /* StopWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchView.swift; sourceTree = "<group>"; };
+		7322DD8E2F4E890A00EE5345 /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			children = (
 				7322DD672F4CE13100EE5345 /* LandingView.swift */,
 				7322DD762F4CE37200EE5345 /* WorldClockView.swift */,
+				7322DD8E2F4E890A00EE5345 /* CityView.swift */,
 				7322DD732F4CE35400EE5345 /* AlarmClockView.swift */,
 				7322DD782F4CE38400EE5345 /* StopWatchView.swift */,
 			);
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7322DD692F4CE13100EE5345 /* ClocksApp.swift in Sources */,
+				7322DD8F2F4E890A00EE5345 /* CityView.swift in Sources */,
 				7322DD792F4CE38400EE5345 /* StopWatchView.swift in Sources */,
 				7322DD6A2F4CE13100EE5345 /* LandingView.swift in Sources */,
 				7322DD772F4CE37200EE5345 /* WorldClockView.swift in Sources */,
