@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LandingView: View {
     var body: some View {
-        TabView(selection: Binding.constant(1)) {
+        TabView(selection: Binding.constant(3)) {
             WorldClockView()
                 .tabItem {
                     Image(systemName: "globe")
@@ -17,14 +17,14 @@ struct LandingView: View {
                 }
                 .tag(1)
         
-            AlarmClockView()
+            AlarmsView()
                 .tabItem {
                     Image(systemName: "alarm.fill")
                     Text("Alarm")
                 }
                 .tag(2)
     
-            StopWatchView()
+            StopwatchView()
                 .tabItem {
                     Image(systemName: "stopwatch.fill")
                     Text("Stopwatch")

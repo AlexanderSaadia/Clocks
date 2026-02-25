@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct CityView: View {
+struct WorldClockStructureView: View {
     
     // MARK: Stored properties
     let timeZoneOffset: String
