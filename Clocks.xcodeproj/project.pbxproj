@@ -15,6 +15,7 @@
 		7322DD792F4CE38400EE5345 /* StopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7322DD782F4CE38400EE5345 /* StopwatchView.swift */; };
 		7322DD8F2F4E890A00EE5345 /* WorldClockStructureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7322DD8E2F4E890A00EE5345 /* WorldClockStructureView.swift */; };
 		7322DD912F4F5F6100EE5345 /* AlarmStructureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7322DD902F4F5F6100EE5345 /* AlarmStructureView.swift */; };
+		736551822F9BF07A00869F7B /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736551812F9BF07A00869F7B /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		7322DD782F4CE38400EE5345 /* StopwatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchView.swift; sourceTree = "<group>"; };
 		7322DD8E2F4E890A00EE5345 /* WorldClockStructureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockStructureView.swift; sourceTree = "<group>"; };
 		7322DD902F4F5F6100EE5345 /* AlarmStructureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmStructureView.swift; sourceTree = "<group>"; };
+		736551812F9BF07A00869F7B /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				7322DD662F4CE13100EE5345 /* ClocksApp.swift */,
+				736551802F9BF06600869F7B /* Model */,
 				7322DD6C2F4CE14B00EE5345 /* Views */,
 				7322DD652F4CE13100EE5345 /* Assets.xcassets */,
 			);
@@ -77,6 +80,14 @@
 				7322DD782F4CE38400EE5345 /* StopwatchView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		736551802F9BF06600869F7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				736551812F9BF07A00869F7B /* City.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +168,7 @@
 				7322DD912F4F5F6100EE5345 /* AlarmStructureView.swift in Sources */,
 				7322DD6A2F4CE13100EE5345 /* LandingView.swift in Sources */,
 				7322DD772F4CE37200EE5345 /* WorldClockView.swift in Sources */,
+				736551822F9BF07A00869F7B /* City.swift in Sources */,
 				7322DD742F4CE35400EE5345 /* AlarmsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -29,7 +29,7 @@ struct AlarmStructureView: View {
             // Right Side
             Toggle("", isOn: $trueOrFalse)
                 .tint(.green)
-            
+     
         }
     }
 }

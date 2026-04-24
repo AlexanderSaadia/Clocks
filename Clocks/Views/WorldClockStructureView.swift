@@ -11,19 +11,14 @@ import SwiftUI
 struct WorldClockStructureView: View {
     
     // MARK: Stored properties
-    let timeZoneOffset: String
-    let city: String
-    let time: String
-    let amOrPm: String
-    
-    
-    
+    let providedCity: City
+
     var body: some View {
         HStack {
             // Left Side
             VStack {
-                Text ("Today, \(timeZoneOffset)HRS")
-                Text(city)
+                Text ("Today, \(providedCity.timeZoneOffset)HRS")
+                Text(providedCity.city)
                     .font(.system(.largeTitle, design: .default, weight: .thin))
                 
             }
@@ -31,9 +26,9 @@ struct WorldClockStructureView: View {
             Spacer()
             
             // Right Side
-            Text (time)
+            Text (providedCity.time)
                 .font(.system(size: 64.0, weight: .thin, design: .default))
-            Text (amOrPm)
+            Text (providedCity.amOrPm)
                 .font(.system(.largeTitle, design: .default, weight: .thin,))
         }
     }
